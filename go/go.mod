@@ -1,6 +1,6 @@
 module github.com/backsoul/crudgo
 
-go 1.21.0
+go 1.18
 
 require (
 	github.com/go-sql-driver/mysql v1.7.1

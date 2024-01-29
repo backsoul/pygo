@@ -6,7 +6,7 @@ COPY go.sum .
 RUN go mod download
 COPY . .
 
-RUN go build -o crudgo crud.go
+RUN go build -o crudgo main.go
 
-EXPOSE 8000
+EXPOSE 8080
 CMD ["./crudgo"]
