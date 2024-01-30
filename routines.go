@@ -1,5 +1,7 @@
 package main
 
+//https://gobyexample.com/goroutines
+//https://gobyexample.com/waitgroups
 import (
 	"fmt"
 	"time"
